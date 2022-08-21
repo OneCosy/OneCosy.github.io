@@ -8,13 +8,26 @@ main:
     url: /search/
 
 docs:
-  - title: "대목차1"
+  - title: "BaekJun"
     children:
-      - title: "Category"
-        url: /categories/
-      - title: "Tag"
-        url: /tags/
-        
+      - title: "Steps"
+        url: /Steps/
+        category: "Steps"
+
+      - title: "Algorithm"
+        url:  /Algorithm/
+        category: "Algorithm"
+
+  - title: "Computer Science"
+    children:
+      - title: "Database"
+        url: /Database/
+        category: "Database"
+
+      - title: "Algorithm"
+        url:  /Algo_CS/
+        category: "Algo_CS"
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
