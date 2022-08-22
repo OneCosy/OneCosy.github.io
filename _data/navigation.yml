@@ -28,6 +28,12 @@ docs:
         url:  /Algo_CS/
         category: "Algo_CS"
 
+  - title: "ETC"
+    children:
+      - title: "Notice"
+        url: /Notice/
+        category: "Notice"
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
