@@ -1,5 +1,5 @@
 ---
-title: "Algorithm"
+title: "알고리즘 문제"
 layout: archive
 permalink: /Algorithm/
 author_profile: true
