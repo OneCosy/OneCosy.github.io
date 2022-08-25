@@ -10,11 +10,11 @@ main:
 docs:
   - title: "BaekJun"
     children:
-      - title: "Steps"
+      - title: "단계별 문제"
         url: /Steps/
         category: "Steps"
 
-      - title: "Algorithm"
+      - title: "알고리즘 문제"
         url:  /Algorithm/
         category: "Algorithm"
 
