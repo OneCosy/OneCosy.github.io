@@ -1,10 +1,10 @@
 ---
-title: "Algo_CS"
+title: "Paradigm"
 layout: archive
-permalink: /Algo_CS/
+permalink: /Paradigm/
 author_profile: true
 sidebar_main: true
 ---
 
-{% assign posts = site.categories.Algo_CS %}
+{% assign posts = site.categories.Paradigm %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %} {% endfor %}

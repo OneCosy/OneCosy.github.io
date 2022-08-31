@@ -20,13 +20,29 @@ docs:
 
   - title: "Computer Science"
     children:
-      - title: "Database"
-        url: /Database/
+      - title: "디자인 패턴"
+        url: /DesignPattern/
+        category: "DesignPattern"
+
+      - title: "프로그래밍 패러다임"
+        url: /Paradigm/
+        category: "Paradigm"
+
+      - title: "네트워크"
+        url:  /Network/
+        category: "Network"
+
+      - title: "운영체제"
+        url:  /OS/
+        category: "OS"
+
+      - title: "데이터베이스"
+        url:  /Database/
         category: "Database"
 
-      - title: "Algorithm"
-        url:  /Algo_CS/
-        category: "Algo_CS"
+      - title: "자료구조"
+        url:  /DataStructure/
+        category: "DataStructure"
 
   - title: "ETC"
     children:
