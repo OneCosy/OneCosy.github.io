@@ -159,12 +159,31 @@
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
+    
+    &.disabled-first-child {
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      color: rgba($muted-text-color, 0.5);
+      pointer-events: none;
+      cursor: not-allowed;
+    }
 
+    &.disabled-last-child {
+      margin-bottom: 1em;
+      border-top-left-radius: 0;
+      border-top-right-radius: 0;
+      color: rgba($muted-text-color, 0.5);
+      pointer-events: none;
+      cursor: not-allowed;
+    }
+
+    /*
     &.disabled {
       color: rgba($muted-text-color, 0.5);
       pointer-events: none;
       cursor: not-allowed;
     }
+    */
   }
 }
 
@@ -456,6 +475,7 @@
 
   a {
     color: inherit;
+    font-size: $type-size-5;
   }
 
   .active {
@@ -506,7 +526,7 @@
   margin: 0.5rem 0;
   padding: 0.25rem 0;
   font-family: $sans-serif-narrow;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   font-weight: bold;
   text-transform: uppercase;
   border-bottom: 1px solid $border-color;
@@ -527,7 +547,7 @@
 
   .nav__title {
     color: #fff;
-    font-size: $type-size-6;
+    font-size: $type-size-5;
     background: $primary-color;
     border-top-left-radius: $border-radius;
     border-top-right-radius: $border-radius;
@@ -539,15 +559,15 @@
   }
 }
 
-.toc__menu {
+.toc__menu {  // 게시물 목차 제목 크기
   margin: 0;
   padding: 0;
   width: 100%;
   list-style: none;
-  font-size: $type-size-6;
+  font-size: $type-size-3;
 
   @include breakpoint($large) {
-    font-size: $type-size-7;
+    font-size: $type-size-6;  //게시물 목차 내용 크기
   }
 
   a {
@@ -560,6 +580,7 @@
 
     &:hover {
       color: $text-color;
+      text-decoration: none;
     }
   }
 

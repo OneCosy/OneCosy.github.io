@@ -70,12 +70,9 @@ body {
 
 .page__title {
   margin-top: 0;
-  line-height: 1;
-
-  a {
-    color: $text-color;
-    text-decoration: none;
-  }
+  line-height: 1;  
+  font-family: $sans-serif;
+  color: #FFF;
 
   & + .page__meta {
     margin-top: -0.5em;
@@ -88,6 +85,8 @@ body {
 }
 
 .page__content {
+  margin-top: 20px;
+
   h2 {
     padding-bottom: 0.5em;
     border-bottom: 1px solid $border-color;
@@ -289,7 +288,7 @@ body {
 
 .page__share-title {
   margin-bottom: 10px;
-  font-size: $type-size-6;
+  font-size: $type-size-5;
   text-transform: uppercase;
 }
 
@@ -329,6 +328,7 @@ body {
    ========================================================================== */
 
 .page__taxonomy {
+  margin-top: -10px;
   .sep {
     display: none;
   }
@@ -338,18 +338,41 @@ body {
   }
 }
 
-.page__taxonomy-item {
-  display: inline-block;
+.page__taxonomy-item-tag {
+  display: inside;
   margin-right: 5px;
   margin-bottom: 8px;
-  padding: 5px 10px;
+  padding: 3px 8px;
   text-decoration: none;
-  border: 1px solid mix(#000, $border-color, 25%);
+  border: 1px solid $background-color;
+  border-radius: $border-radius;
+  background-color: #595959;
+  font-family: $post;
+  color: mix($primary-color, #eaeaea, 40%);
   border-radius: $border-radius;
 
   &:hover {
     text-decoration: none;
-    color: $link-color-hover;
+    color: mix($primary-color, #eaeaea, 40%); //커서 댈 때 색
+  }
+}
+
+.page__taxonomy-item-category {
+  display: inside;
+  margin-right: 5px;
+  margin-bottom: 8px;
+  padding: 3px 8px;
+  text-decoration: none;
+  border: 1px solid $background-color;
+  border-radius: $border-radius;
+  background-color: #6d6d6d;
+  font-family: $post;
+  color: mix($primary-color, #eaeaea, 40%);;
+
+
+  &:hover {
+    text-decoration: none;
+    color: mix($primary-color, #eaeaea, 40%) // 커서 댈 때 색
   }
 }
 
@@ -408,6 +431,7 @@ body {
     color: inherit;
     text-decoration: none;
     border-bottom: 1px solid $border-color;
+    font-family: $sans-serif;
   }
 }
 
@@ -546,7 +570,7 @@ body {
 }
 
 .page__related-title {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: $type-size-6;
   text-transform: uppercase;
 }
