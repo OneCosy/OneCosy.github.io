@@ -118,6 +118,7 @@
   }
 }
 
+
 .pagination_prev_next {
   @include clearfix();
   float: left;
@@ -155,7 +156,8 @@
     }
 
     &:last-child {
-      margin-left: -1px;
+      // margin-left: -1px;
+      margin-bottom: 1em;
       border-top-left-radius: 0;
       border-bottom-left-radius: 0;
     }
@@ -537,7 +539,7 @@
      ========================================================================== */
 
 .toc {
-  font-family: $sans-serif-narrow;
+  font-family: $sans-serif;
   color: $gray;
   background-color: $background-color;
   border: 1px solid $border-color;
@@ -565,6 +567,7 @@
   width: 100%;
   list-style: none;
   font-size: $type-size-3;
+  background-color: #e6f2fd;
 
   @include breakpoint($large) {
     font-size: $type-size-6;  //게시물 목차 내용 크기
@@ -573,13 +576,13 @@
   a {
     display: block;
     padding: 0.25rem 0.75rem;
-    color: $muted-text-color;
+    color: #000; //default $muted-text-color
     font-weight: bold;
     line-height: 1.5;
     border-bottom: 1px solid $border-color;
 
     &:hover {
-      color: $text-color;
+      color: #000;
       text-decoration: none;
     }
   }
