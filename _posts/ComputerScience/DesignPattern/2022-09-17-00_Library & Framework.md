@@ -15,7 +15,7 @@ search: true
 # 라이브러리
 <hr>
 
-소프트웨어의 구성요소 중 한가지로, API를 바탕으로 대상 환경(플랫폼)에서 바로 실행될 수 있도록 **<mark style='background-color: #E1EAF3'>모듈화</mark>**된 프로그램 모음을 의미한다. 
+소프트웨어의 구성요소 중 한가지로, API를 바탕으로 대상 환경(플랫폼)에서 바로 실행될 수 있게 **<mark style='background-color: #E1EAF3'>모듈화</mark>**된 프로그램 모음을 의미한다. 
 
 소프트웨어를 개발할 때 컴퓨터 프로그램이 사용하는 비휘발성 자원의 모임. 즉, **<mark style='background-color: #E1EAF3'>특정 기능을 모아둔 코드, 함수들의 집합</mark>**이며 코드 작성시 <u>활용 가능한 도구들</u>을 의미한다.
 
