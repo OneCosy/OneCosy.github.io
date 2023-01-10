@@ -8,6 +8,20 @@ main:
     url: /search/
 
 docs:
+  - title: "자바의 정석"
+    children:
+      - title: "Chapter02 - 변수"
+        url: /Java/
+        category: "Java"
+
+      - title: "Chapter03 - 연산자"
+        url: /Java/
+        category: "Java"
+
+      - title: "Chapter04 - 조건문과 반복문"
+        url: /Java/
+        category: "Java"
+
   - title: "BaekJun"
     children:
       - title: "단계별 문제"
