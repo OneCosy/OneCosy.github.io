@@ -11,16 +11,16 @@ docs:
   - title: "자바의 정석"
     children:
       - title: "Chapter02 - 변수"
-        url: /Java/
-        category: "Java"
+        url: /ch02/
+        category: "ch02"
 
       - title: "Chapter03 - 연산자"
-        url: /Java/
-        category: "Java"
+        url: /ch03/
+        category: "ch03"
 
       - title: "Chapter04 - 조건문과 반복문"
-        url: /Java/
-        category: "Java"
+        url: /ch04/
+        category: "ch04"
 
   - title: "BaekJun"
     children:
